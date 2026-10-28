@@ -77,4 +77,4 @@ terraform plan
 - **Learning Environment:** Designed for learning and architectural demonstration.
 - **Cost Warning:** NAT Gateways and Application Load Balancers incur hourly AWS charges. Run `terraform destroy` when done to clean up resources and prevent unwanted charges.
 - **Security:** Do not commit AWS credentials, `.tfstate` files, or private keys to source control.
-- **AWS Provider:** Provider constraint is set to `< 6.65.0`.
+- **AWS Provider:** Provider constraint is set to `> 6.65.0`.
